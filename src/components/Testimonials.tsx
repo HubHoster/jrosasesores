@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const Testimonials = () => {
@@ -42,29 +41,6 @@ export const Testimonials = () => {
         <div className="bg-[rgba(225,56,51,1)] w-[35px] h-1 rounded-[5px]" />
         <div className="bg-[rgba(225,56,51,1)] w-[35px] h-1 rounded-[5px]" />
         <div className="bg-[rgba(225,56,51,1)] w-[35px] h-1 rounded-[5px]" />
-      </div>
-      
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-12 md:mt-16 lg:mt-[84px] max-w-7xl mx-auto">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9afbadcbcf9ea0b411a3d68cadd8cacc7cad504?placeholderIfAbsent=true"
-          className="w-full h-auto object-contain"
-          alt="Partner logo"
-        />
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/885bd3110c0c5257235d7ec3ca44648cc095bda0?placeholderIfAbsent=true"
-          className="w-full h-auto object-contain"
-          alt="Partner logo"
-        />
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/31afa0866ad9c8586ed9d0afa5be3dc7ea442e64?placeholderIfAbsent=true"
-          className="w-full h-auto object-contain"
-          alt="Partner logo"
-        />
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/885bd3110c0c5257235d7ec3ca44648cc095bda0?placeholderIfAbsent=true"
-          className="w-full h-auto object-contain"
-          alt="Partner logo"
-        />
       </div>
     </section>
   );

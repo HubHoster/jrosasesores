@@ -52,15 +52,6 @@ export const About = () => {
                 <div className="text-[rgba(38,46,46,1)] text-lg md:text-[22px] font-bold">Confianza</div>
               </div>
             </div>
-            
-            <button className="border flex flex-row items-center justify-center gap-2 md:gap-[30px] text-base text-[rgba(38,46,46,1)] font-semibold px-4 md:px-[37px] py-3 md:py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid hover:bg-gray-50 transition-colors w-full sm:w-fit mx-auto mt-6 whitespace-nowrap">
-              <span>Leer más</span>
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/16a2f12285939026a96cbd02706d4f2b0c13c07a?placeholderIfAbsent=true"
-                className="w-8 h-8 md:w-[35px] md:h-[35px] object-contain rounded-[5px]"
-                alt="Read more"
-              />
-            </button>
           </div>
         </div>
       </div>

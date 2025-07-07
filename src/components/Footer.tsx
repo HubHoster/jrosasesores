@@ -23,7 +23,6 @@ export const Footer = () => {
           <a href="#about" className="text-white text-sm hover:underline">Nosotros</a>
           <a href="#services" className="text-white text-sm hover:underline">Servicios</a>
           <a href="#contact" className="text-white text-sm hover:underline">Contacto</a>
-          <a href="#blog" className="text-white text-sm hover:underline">Blog</a>
         </div>
       </div>
       <div className="w-full max-w-4xl flex flex-col md:flex-row items-center justify-between border-t border-[rgba(53,82,83,1)] mt-8 pt-4 px-4 gap-4">

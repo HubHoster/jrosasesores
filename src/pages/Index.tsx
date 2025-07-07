@@ -6,9 +6,7 @@ import { Services } from '@/components/Services';
 import { Team } from '@/components/Team';
 import { Contact } from '@/components/Contact';
 import { Statistics } from '@/components/Statistics';
-import { Testimonials } from '@/components/Testimonials';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { Blog } from '@/components/Blog';
 import { Footer } from '@/components/Footer';
 
 const Index = () => {
@@ -22,12 +20,10 @@ const Index = () => {
           <section id="nosotros"><About /></section>
           <section id="servicios"><Services /></section>
           <section id="team"><Team /></section>
-          <section id="contacto"><Contact /></section>
           <section id="estadisticas"><Statistics /></section>
-          <section id="testimonios"><Testimonials /></section>
           <section id="why"><WhyChooseUs /></section>
-          <section id="blog"><Blog /></section>
         </div>
+        <section id="contacto"><Contact /></section>
       </main>
       
       <Footer />

@@ -73,14 +73,6 @@ export const Services = () => {
                         <p className="text-[rgba(102,102,102,1)] font-normal leading-[27px] mt-[37px]">
                           {service.description}
                         </p>
-                        <button className="border flex flex-row items-center justify-center gap-2 md:gap-[30px] font-semibold text-center mt-[72px] pl-[20px] pr-[7px] py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid max-md:mt-10 max-md:pl-3 hover:bg-gray-50 transition-colors w-full sm:w-fit mx-auto whitespace-nowrap">
-                          <span className="my-auto">Leer más</span>
-                          <img
-                            src={service.buttonIcon}
-                            className="aspect-[1] object-contain w-[35px] shrink-0 rounded-[5px]"
-                            alt="Read more"
-                          />
-                        </button>
                       </article>
                     </div>
                   ))}
@@ -102,14 +94,6 @@ export const Services = () => {
                         <p className="text-[rgba(102,102,102,1)] font-normal leading-[27px] mt-9">
                           {service.description}
                         </p>
-                        <button className="border flex flex-row items-center justify-center gap-2 md:gap-[30px] font-semibold text-center mt-[69px] pl-[20px] pr-[7px] py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid max-md:mt-10 max-md:pl-3 hover:bg-gray-50 transition-colors w-full sm:w-fit mx-auto whitespace-nowrap">
-                          <span className="my-auto">Leer más</span>
-                          <img
-                            src={service.buttonIcon}
-                            className="aspect-[1] object-contain w-[35px] shrink-0 rounded-[5px]"
-                            alt="Read more"
-                          />
-                        </button>
                       </article>
                     </div>
                   ))}
@@ -132,14 +116,6 @@ export const Services = () => {
                   <p className="text-[rgba(102,102,102,1)] font-normal leading-[27px] mt-[50px] max-md:mt-10">
                     {service.description}
                   </p>
-                  <button className="border flex flex-row items-center justify-center gap-2 md:gap-[30px] font-semibold text-center mt-[54px] pl-[20px] pr-[7px] py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid max-md:mt-10 max-md:pl-3 hover:bg-gray-50 transition-colors w-full sm:w-fit mx-auto whitespace-nowrap">
-                    <span className="my-auto">Leer más</span>
-                    <img
-                      src={service.buttonIcon}
-                      className="aspect-[1] object-contain w-[35px] shrink-0 rounded-[5px]"
-                      alt="Read more"
-                    />
-                  </button>
                 </article>
               ))}
             </div>

@@ -60,14 +60,6 @@ export const WhyChooseUs = () => {
             ))}
           </div>
           
-          <button className="border flex flex-row items-center justify-center gap-2 md:gap-[31px] text-base text-[rgba(38,46,46,1)] font-semibold px-4 md:px-[37px] py-3 md:py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid hover:bg-gray-50 transition-colors w-full sm:w-fit mx-auto mt-8 md:mt-[63px] whitespace-nowrap">
-            <span>Leer Más</span>
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/83018963b3f9be1176ddb06379c7fa24ec658372?placeholderIfAbsent=true"
-              className="w-8 h-8 md:w-[35px] md:h-[35px] object-contain rounded-[5px]"
-              alt="Read more"
-            />
-          </button>
         </div>
       </div>
     </section>
