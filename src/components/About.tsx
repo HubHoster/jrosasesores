@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImg from './../assets/why_us.png';
 
 export const About = () => {
   return (
@@ -6,7 +7,7 @@ export const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-[20px] overflow-hidden shadow-sm">
         <div className="order-2 lg:order-1">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/74f31687861d0e77d0937383fbf06d5ef4d99495?placeholderIfAbsent=true"
+            src={aboutImg}
             className="w-full h-full object-cover min-h-[400px] lg:min-h-full"
             alt="Office building"
           />
