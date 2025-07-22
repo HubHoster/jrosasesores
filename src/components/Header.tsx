@@ -151,19 +151,19 @@ export const Header = () => {
       <nav className="bg-white shadow-lg w-full">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-[70px] py-4">
           <div className="flex items-center justify-between w-full">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/387cf36dd6fccc4ff1754a051cf05e6725008fee?placeholderIfAbsent=true"
-              className="h-12 md:h-16 w-auto object-contain"
-              alt="J. Rosa Asesores Logo"
-            />
+            <a href="/" className="flex-shrink-0">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/387cf36dd6fccc4ff1754a051cf05e6725008fee?placeholderIfAbsent=true"
+                className="h-12 md:h-20 lg:h-24 w-auto object-contain"
+                alt="J. Rosa Asesores Logo"
+              />
+            </a>
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-6 xl:gap-8 text-base text-[rgba(13,87,4,1)] font-bold">
+              <a href="/" className="cursor-pointer hover:text-[rgba(225,56,51,1)] transition-colors">
+                <span>Portada</span>
+              </a>
               <a href="#nosotros" className="flex items-center gap-2 cursor-pointer hover:text-[rgba(225,56,51,1)] transition-colors">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b932b1ad33cd8235b996c1a48cc89de8f447b9aa?placeholderIfAbsent=true"
-                  className="w-8 h-8 object-contain"
-                  alt="About"
-                />
                 <span>Nosotros</span>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/da6d9ea7623fe1da98bba366eed0187e0f56a97e?placeholderIfAbsent=true"

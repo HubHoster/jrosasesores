@@ -1,4 +1,5 @@
 import React from 'react';
+import WhyUs from './../assets/why_us.png';
 
 export const WhyChooseUs = () => {
   const features = [
@@ -24,7 +25,7 @@ export const WhyChooseUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <div className="order-2 lg:order-1">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c01edb068ebe9874079a7f3d0128aeb02afd3f50?placeholderIfAbsent=true"
+            src={WhyUs}
             className="w-full h-auto object-contain rounded-[90px_20px_90px_20px]"
             alt="Why choose us"
           />

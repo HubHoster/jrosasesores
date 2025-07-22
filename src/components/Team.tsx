@@ -26,6 +26,12 @@ export const Team = () => {
       name: "Ana Cruz",
       position: "Encargada de Tramitación Contable",
       socialIcons: []
+    },
+    {
+      image: "/src/assets/kalorina.jpg",
+      name: "Karoline Rosa",
+      position: "Area de trámite documentario",
+      socialIcons: []
     }
   ];
 

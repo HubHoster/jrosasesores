@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroImg from './../assets/hero.png'
 
 export const Hero = () => {
   return (
@@ -47,7 +48,7 @@ export const Hero = () => {
               </div>
               <div className="lg:col-span-2 flex justify-center items-center w-full">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e9b61d8bef0069dd0d23f51b0f776f4bf8702ac?placeholderIfAbsent=true"
+                  src={HeroImg}
                   className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain mx-auto"
                   alt="Professional consultation"
                 />
