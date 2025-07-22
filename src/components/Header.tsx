@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import { WHATSAPP_LINK } from '../lib/constants';
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const whatsappNumber = '5491123456789'; // Replace with your actual WhatsApp number
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
   return (
     <header className="bg-white w-full sticky top-0 z-50 shadow transition-shadow duration-300">
       {/* Top contact bar */}
@@ -229,7 +228,7 @@ export const Header = () => {
       </nav>
       {/* Floating WhatsApp Button */}
       <a
-        href={whatsappLink}
+        href={WHATSAPP_LINK}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed z-50 bottom-6 right-6 md:bottom-8 md:right-8 flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-green-500 hover:bg-green-600 rounded-full shadow-lg transition-all duration-200"

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { WHATSAPP_LINK } from '../lib/constants';
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -100,11 +101,13 @@ export const Contact = () => {
                     alt="Dropdown"
                   />
                 </div>
-                <button
-                  type="submit"
-                  className="bg-[rgba(225,56,51,1)] text-base text-white font-semibold text-center flex-1 min-w-0 rounded-[5px] hover:bg-[rgba(200,46,41,1)] transition-colors"
+                <a
+                  href={WHATSAPP_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[rgba(225,56,51,1)] text-base text-white font-semibold text-center flex-1 min-w-0 rounded-[5px] hover:bg-[rgba(200,46,41,1)] transition-colors flex items-center justify-center"
                 >
-                  <div className="border flex items-stretch gap-5 justify-between pl-[24px] pr-[7px] py-2.5 rounded-[5px] border-[rgba(225,56,51,1)] border-solid">
+                  <div className="border flex items-stretch gap-5 justify-between pl-[24px] pr-[7px] py-2.5 rounded-[5px] border-[rgba(225,56,51,1)] border-solid w-full">
                     <div className="my-auto">Solicitar Cotización</div>
                     <img
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce3b3368f249979c8ae40eed69aa493912a524c5?placeholderIfAbsent=true"
@@ -112,7 +115,7 @@ export const Contact = () => {
                       alt="Submit"
                     />
                   </div>
-                </button>
+                </a>
               </div>
             </form>
           </div>
