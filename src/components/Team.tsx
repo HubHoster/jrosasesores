@@ -1,5 +1,6 @@
 
 import React from 'react';
+import kalorinaImage from '../assets/kalorina.jpg';
 
 export const Team = () => {
   const teamMembers = [
@@ -28,7 +29,7 @@ export const Team = () => {
       socialIcons: []
     },
     {
-      image: "/src/assets/kalorina.jpg",
+      image: kalorinaImage,
       name: "Karoline Rosa",
       position: "Area de trámite documentario",
       socialIcons: []
