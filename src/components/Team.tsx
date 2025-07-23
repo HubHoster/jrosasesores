@@ -1,6 +1,7 @@
 
 import React from 'react';
 import kalorinaImage from '../assets/kalorina.jpg';
+import lisselotImg from '../assets/lisselot.png';
 
 export const Team = () => {
   const teamMembers = [
@@ -17,7 +18,7 @@ export const Team = () => {
       socialIcons: []
     },
     {
-      image: "/assets/risselot_rosa.jpeg",
+      image: lisselotImg,
       name: "Lisselot Rosa",
       position: "Socia de Outsourcing",
       socialIcons: []
