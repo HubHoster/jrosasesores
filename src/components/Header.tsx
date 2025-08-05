@@ -9,32 +9,7 @@ export const Header = () => {
       <div className="bg-[rgba(16,69,71,1)] w-full">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 py-3">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm md:text-[15px] text-white font-normal w-full">
-            {/* Socials - hidden on mobile, visible on sm+ */}
-            <div className="hidden sm:flex items-center gap-4">
-              <span className="hidden sm:inline">Follow us:</span>
-              <div className="flex items-center gap-3">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/237040cdf08d7dd0b61df2638488c908d11357b2?placeholderIfAbsent=true"
-                  className="w-[18px] h-[18px] object-contain"
-                  alt="Social media"
-                />
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/711c88c2460936bb1a3dc34e0abd7076e0f83483?placeholderIfAbsent=true"
-                  className="w-[18px] h-[18px] object-contain"
-                  alt="Social media"
-                />
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/277c115ec0762c21f6e232396f8372def89020ef?placeholderIfAbsent=true"
-                  className="w-[18px] h-[18px] object-contain"
-                  alt="Social media"
-                />
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d95b7b4978e156503cc5a4c807a5edc8319a838?placeholderIfAbsent=true"
-                  className="w-[18px] h-[18px] object-contain"
-                  alt="Social media"
-                />
-              </div>
-            </div>
+            <div className="hidden sm:flex items-center gap-4"></div>
             {/* Desktop: One-line flex address bar, Mobile: Marquee */}
             <div className="flex-1 w-full">
               <div className="hidden sm:flex flex-row items-center gap-8 whitespace-nowrap justify-end">
@@ -56,30 +31,7 @@ export const Header = () => {
                 </div>
               </div>
               <div className="block sm:hidden w-full h-6 overflow-hidden relative">
-                <div className="flex animate-marquee whitespace-nowrap text-xs items-center gap-16 pl-2 pr-4" style={{animationDuration: '18s'}}>
-                  {/* Social icons in marquee for mobile */}
-                  <span className="flex items-center gap-4 pr-6">
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/237040cdf08d7dd0b61df2638488c908d11357b2?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/711c88c2460936bb1a3dc34e0abd7076e0f83483?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/277c115ec0762c21f6e232396f8372def89020ef?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d95b7b4978e156503cc5a4c807a5edc8319a838?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                  </span>
+                <div className="flex animate-marquee whitespace-nowrap text-xs items-center gap-16" style={{animationDuration: '20s'}}>
                   {/* Marquee content duplicated for seamless loop */}
                   <>
                     <span className="flex items-center gap-4 pr-6">
@@ -99,28 +51,6 @@ export const Header = () => {
                       C/ José Martí No. 18. Urbanización Máximo Gómez. RD
                     </span>
                   </>
-                  <span className="flex items-center gap-4 pr-6">
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/237040cdf08d7dd0b61df2638488c908d11357b2?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/711c88c2460936bb1a3dc34e0abd7076e0f83483?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/277c115ec0762c21f6e232396f8372def89020ef?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d95b7b4978e156503cc5a4c807a5edc8319a838?placeholderIfAbsent=true"
-                      className="w-[18px] h-[18px] object-contain"
-                      alt="Social media"
-                    />
-                  </span>
                   <>
                     <span className="flex items-center gap-4 pr-6">
                       <img

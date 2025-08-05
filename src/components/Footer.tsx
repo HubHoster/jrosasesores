@@ -17,38 +17,17 @@ export const Footer = () => {
           />
           <div className="text-[rgba(212,209,209,1)] text-sm mb-2">C/ José Martí No. 18, Urbanización Máximo Gómez, RD</div>
           <div className="text-[rgba(212,209,209,1)] text-sm mb-2">info@jrosasesores.com</div>
-          <div className="text-[rgba(212,209,209,1)] text-sm mb-2">+1 234 456 789</div>
+          <div className="text-[rgba(212,209,209,1)] text-sm mb-2">+1 (849) 885-2282</div>
         </div>
         <div className="flex flex-col items-center md:items-end gap-2">
-          <a href="#about" className="text-white text-sm hover:underline">Nosotros</a>
-          <a href="#services" className="text-white text-sm hover:underline">Servicios</a>
-          <a href="#contact" className="text-white text-sm hover:underline">Contacto</a>
+          <a href="#nosotros" className="text-white text-sm hover:underline">Nosotros</a>
+          <a href="#servicios" className="text-white text-sm hover:underline">Servicios</a>
+          <a href="#contacto" className="text-white text-sm hover:underline">Contacto</a>
         </div>
       </div>
       <div className="w-full max-w-4xl flex flex-col md:flex-row items-center justify-between border-t border-[rgba(53,82,83,1)] mt-8 pt-4 px-4 gap-4">
         <div className="text-white text-xs">© 2025 J Rosa Asesores</div>
-        <div className="flex gap-3">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a820e7a0e509ad99595fb1109c95678e1d66d6a3?placeholderIfAbsent=true"
-            className="w-5 h-5 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-            alt="Social media"
-          />
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/78966aee5717f6bf963b19f6ca109d2997aa8fad?placeholderIfAbsent=true"
-            className="w-5 h-5 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-            alt="Social media"
-          />
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bda10420a07cec4b263133c6376fe812381f44f2?placeholderIfAbsent=true"
-            className="w-5 h-5 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-            alt="Social media"
-          />
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/eeac3497e55b22b56f311cde7e797296eea1bee7?placeholderIfAbsent=true"
-            className="w-5 h-5 object-contain cursor-pointer hover:opacity-80 transition-opacity"
-            alt="Social media"
-          />
-        </div>
+        <div className="flex gap-3"></div>
       </div>
     </footer>
   );
