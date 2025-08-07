@@ -20,46 +20,36 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="w-full max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-        <div className="order-2 lg:order-1">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c01edb068ebe9874079a7f3d0128aeb02afd3f50?placeholderIfAbsent=true"
-            className="w-full h-auto object-contain rounded-[90px_20px_90px_20px]"
-            alt="Why choose us"
-          />
+    <section className="w-full px-4 mt-[100px] max-md:mt-10">
+      <div className="max-w-[800px] mx-auto flex flex-col items-start space-y-6">
+        <div className="text-[rgba(225,56,51,1)] text-sm md:text-[15px] font-bold">
+          ¿Por qué elegirnos?
         </div>
-        <div className="order-1 lg:order-2 space-y-6">
-          <div className="text-[rgba(225,56,51,1)] text-sm md:text-[15px] font-bold">
-            ¿Por qué elegirnos?
-          </div>
-          <h2 className="text-[rgba(38,46,46,1)] text-2xl md:text-3xl lg:text-[40px] font-bold leading-tight">
-            Experiencia, compromiso y resultados que marcan la diferencia.
-          </h2>
-          <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-relaxed">
-            En J. Rosa Asesores combinamos más de 30 años de experiencia con un compromiso genuino hacia el éxito de nuestros clientes. Nuestra asesoría personalizada, precisión en cada detalle y ética profesional nos hacen tu mejor aliado para soluciones financieras, fiscales y legales confiables.
-          </p>
-          
-          <div className="space-y-8">
-            {features.map((feature, index) => (
-              <div key={index} className="flex items-start gap-4">
-                <img
-                  src={feature.icon}
-                  className="w-10 h-10 md:w-[45px] md:h-[45px] object-contain flex-shrink-0 mt-1"
-                  alt={feature.title}
-                />
-                <div className="flex-1">
-                  <h3 className="text-[rgba(38,46,46,1)] text-lg md:text-xl font-bold leading-tight">
-                    {feature.title}
-                  </h3>
-                  <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-relaxed mt-2 md:mt-4">
-                    {feature.description}
-                  </p>
-                </div>
+        <h2 className="text-[rgba(38,46,46,1)] text-2xl md:text-3xl lg:text-[40px] font-bold leading-tight">
+          Experiencia, compromiso y resultados que marcan la diferencia.
+        </h2>
+        <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-relaxed">
+          En J. Rosa Asesores combinamos más de 30 años de experiencia con un compromiso genuino hacia el éxito de nuestros clientes. Nuestra asesoría personalizada, precisión en cada detalle y ética profesional nos hacen tu mejor aliado para soluciones financieras, fiscales y legales confiables.
+        </p>
+
+        <div className="space-y-8 w-full">
+          {features.map((feature, index) => (
+            <div key={index} className="flex items-start gap-4">
+              <img
+                src={feature.icon}
+                className="w-10 h-10 md:w-[45px] md:h-[45px] object-contain flex-shrink-0 mt-1"
+                alt={feature.title}
+              />
+              <div className="flex-1">
+                <h3 className="text-[rgba(38,46,46,1)] text-lg md:text-xl font-bold leading-tight">
+                  {feature.title}
+                </h3>
+                <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-relaxed mt-2 md:mt-4">
+                  {feature.description}
+                </p>
               </div>
-            ))}
-          </div>
-          
+            </div>
+          ))}
         </div>
       </div>
     </section>

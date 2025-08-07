@@ -24,25 +24,19 @@ export const Contact = () => {
 
   return (
     <section className="w-[1296px] max-w-full mt-[100px] max-md:mt-10 px-4">
-      <div className="gap-5 flex flex-col md:flex-row md:items-stretch">
-        <div className="md:w-6/12 w-full md:ml-0">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fde97b7466754372b53924ad15c4bf849bc6cc73?placeholderIfAbsent=true"
-            className="aspect-[1.06] object-contain w-full grow rounded-[20px] max-md:max-w-full max-md:mt-10"
-            alt="Consultation"
-          />
-        </div>
-        <div className="md:w-6/12 w-full md:ml-5 mt-8 md:mt-0">
-          <div className="flex w-full flex-col self-stretch items-stretch my-auto max-md:max-w-full max-md:mt-10">
+      <div className="flex justify-center">
+        <div className="w-full max-w-[640px]">
+          <div className="flex w-full flex-col items-stretch my-auto max-md:max-w-full max-md:mt-10">
             <div className="text-[rgba(225,56,51,1)] text-[15px] font-bold">
               COTIZACIÓN GRATUITA
             </div>
-            <h2 className="text-[rgba(38,46,46,1)] text-[40px] font-bold leading-[48px] mr-[46px] mt-3.5 max-md:max-w-full max-md:mr-2.5">
+            <h2 className="text-[rgba(38,46,46,1)] text-[40px] font-bold leading-[48px] mt-3.5">
               Consulta con un experto en cualquier momento
             </h2>
-            <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-[27px] mr-[49px] mt-12 max-md:max-w-full max-md:mr-2.5 max-md:mt-10">
+            <p className="text-[rgba(102,102,102,1)] text-base font-normal leading-[27px] mt-12 max-md:mt-10">
               Estamos listos para ayudarte con soluciones financieras adaptadas a tus necesidades, para que tomes decisiones seguras y efectivas.
             </p>
+
             <form onSubmit={handleSubmit} className="flex flex-col gap-6 mt-[66px] max-md:mt-10">
               <div className="flex flex-col md:flex-row items-stretch gap-6 text-[15px] text-[rgba(38,46,46,1)] font-bold leading-none flex-wrap w-full">
                 <div className="border flex flex-col overflow-hidden flex-1 min-w-0 pb-[24px] px-[13px] rounded-[5px] border-[rgba(238,238,238,1)] border-solid mb-4 md:mb-0">
@@ -74,6 +68,7 @@ export const Contact = () => {
                   />
                 </div>
               </div>
+
               <div className="flex flex-col md:flex-row w-full items-stretch gap-6 flex-wrap">
                 <div className="border flex items-start gap-4 flex-1 min-w-0 pb-5 px-[13px] rounded-[5px] border-[rgba(238,238,238,1)] border-solid mb-4 md:mb-0">
                   <div className="flex flex-col items-stretch w-full">
@@ -101,6 +96,7 @@ export const Contact = () => {
                     alt="Dropdown"
                   />
                 </div>
+
                 <a
                   href={WHATSAPP_LINK}
                   target="_blank"

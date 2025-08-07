@@ -17,13 +17,13 @@ export const Statistics = () => {
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/99b68c1e1f7a71f59e791faf077e25b4bbac1ef7?placeholderIfAbsent=true",
-      number: "500",
+      number: "200",
       suffix: "",
       label: "clientes"
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/06b2e823ce87d86c29b42f194cbf98aac47f1c05?placeholderIfAbsent=true",
-      number: "50",
+      number: "20",
       suffix: "",
       label: "profesionales expertos"
     }
