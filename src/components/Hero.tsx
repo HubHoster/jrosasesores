@@ -1,5 +1,6 @@
 import React from 'react';
-import HeroImg from './../assets/hero.png'
+import HeroImg from './../assets/hero.png';
+import { WHATSAPP_LINK } from '../lib/constants';
 
 export const Hero = () => {
   return (
@@ -26,7 +27,13 @@ export const Hero = () => {
                   En J. Rosas Asesores ofrecemos servicios de asesoría fiscal y financiera en Santo Domingo, República Dominicana, diseñados para apoyar a empresas, emprendedores y profesionales en su crecimiento económico y cumplimiento tributario. Nuestro compromiso es brindar soluciones efectivas y personalizadas para que optimices tus recursos y logres tus objetivos financieros.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 md:gap-6 text-base font-semibold">
-                  <button className="bg-[rgba(225,56,51,1)] text-white rounded-[5px] hover:bg-[rgba(200,46,41,1)] transition-colors w-full sm:w-auto">
+                  <a
+                    href={WHATSAPP_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-[rgba(225,56,51,1)] text-white rounded-[5px] hover:bg-[rgba(200,46,41,1)] transition-colors w-full sm:w-auto"
+                    aria-label="Contactar por WhatsApp"
+                  >
                     <div className="border flex items-center gap-4 md:gap-6 px-4 md:px-[17px] py-3 md:py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid w-full sm:w-auto justify-center">
                       <span>Contáctanos</span>
                       <img
@@ -35,15 +42,18 @@ export const Hero = () => {
                         alt="Contact icon"
                       />
                     </div>
-                  </button>
-                  <button className="border flex items-center gap-4 md:gap-[18px] text-[rgba(38,46,46,1)] px-4 md:px-[22px] py-3 md:py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid hover:bg-gray-50 transition-colors w-full sm:w-auto justify-center">
+                  </a>
+                  <a
+                    href="#servicios"
+                    className="border flex items-center gap-4 md:gap-[18px] text-[rgba(38,46,46,1)] px-4 md:px-[22px] py-3 md:py-[7px] rounded-[5px] border-[rgba(225,56,51,1)] border-solid hover:bg-gray-50 transition-colors w-full sm:w-auto justify-center"
+                  >
                     <span>Nuestros Servicios</span>
                     <img
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c56cd4f1da94069246888367b34c9e2d0196e7e?placeholderIfAbsent=true"
                       className="w-8 h-8 md:w-[35px] md:h-[35px] object-contain rounded-[5px]"
                       alt="Services icon"
                     />
-                  </button>
+                  </a>
                 </div>
               </div>
               <div className="lg:col-span-2 flex justify-center items-center w-full">

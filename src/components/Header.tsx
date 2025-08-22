@@ -126,12 +126,20 @@ export const Header = () => {
               >
                 <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[rgba(13,87,4,1)]"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
               </button>
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f314b75814740c95f6eb733de14c8aa894d4d39?placeholderIfAbsent=true"
-                className="w-8 h-8 md:w-11 md:h-11 object-contain rounded-full"
-                alt="Contact"
-              />
-              <span className="hidden sm:block">Contactanos</span>
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer"
+                aria-label="Contactar por WhatsApp"
+              >
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f314b75814740c95f6eb733de14c8aa894d4d39?placeholderIfAbsent=true"
+                  className="w-8 h-8 md:w-11 md:h-11 object-contain rounded-full"
+                  alt="Contact"
+                />
+                <span className="hidden sm:block text-[rgba(13,87,4,1)] font-semibold hover:text-[rgba(225,56,51,1)] transition-colors">Contactanos</span>
+              </a>
             </div>
           </div>
         </div>
