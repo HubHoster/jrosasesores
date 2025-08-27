@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://jrosasesores.com/sitemap.xml
+
+*
